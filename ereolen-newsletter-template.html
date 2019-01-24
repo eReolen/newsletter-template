@@ -105,6 +105,9 @@
         .ereolDividerBlock{
             table-layout:fixed !important;
         }
+        a.hl-link{
+            color: #B81B40;
+        }
     /*
     @tab Page
     @section Background Style
@@ -640,10 +643,10 @@
                         <tbody>
                             <tr>
                                 <td valign="top" style="padding:1px;">
-                                    <span style="color: white;">{preheader}</span>
+                                    <span style="color: white; font-size: 12px;">{preheader}</span>
                                 </td>
                                 <td align="right" valign="top" style="padding:1px;">
-                                    <span style="color: white;">{member.viewInBrowser}</span>
+                                    <a href="{member.viewInBrowser}" style="color: white; font-size: 12px;">Vis i browser</a>
                                 </td>
                             </tr>
                         </tbody>
@@ -697,7 +700,7 @@
                             <tr>
                                 <td valign="top" id="templateBody" class="ereolTextContent" style="padding:0px;">
                                     {content}
-</td>
+                                </td>
                             </tr>
                         </tbody>
                     </table>

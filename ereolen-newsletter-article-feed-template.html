@@ -1,32 +1,15 @@
-<!-- Start template for article feed -->
-
-<table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="ereolTextContent" style="min-width:100%; background-color: #ffffff;" id="{nid}">
+<table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="ereolTextContent" style="min-width:100%;" id="{productId}">
     <tbody>
-        <tr>
-            <td valign="top" style="padding-left: 9px; padding-top: 9px; padding-bottom: 0px;">
-                <h3 style="font-size: 22px; padding-bottom: 0px;"><a href="{content url}" style="color: #007AFF; text-decoration: none;">{title}</a></h3>
-            </td>
-            <td width="39">
-                <img src="ereolen-newletter-assets/icon-badge-book@2x.png" alt="" style="padding-right: 0px; display: inline;padding-top: 9px;" height="30" width="30"/>
-            </td>
-            <td width="39">
-                <img src="ereolen-newletter-assets/icon-badge-sound@2x.png" alt="" style="padding-right: 0px; display: inline;padding-top: 9px;" height="30" width="30"/>
-            </td>
-            <td rowspan="2" width="140">
-                <img src="{ImageUrl}" alt="" style="padding-right: 9px; padding-top: 9px;" height="auto" width="140"/>
-            </td>
-        </tr>
-        <tr>
-            <td valign="top" colspan="3" style="padding-left: 9px; padding-right: 9px;" >
-                <p>{Description}</p>
-            </td>
-        </tr>
-        <tr>
-            <td valign="top" style="padding-left: 9px; padding-bottom: 9px;">
-                <a href="{content url}" style="color: #007AFF;">Læs mere her</a>
-            </td>
-        </tr>
+    <tr>
+        <td valign="top">
+            <h3 style="font-size: 18px; padding-bottom: 0px; font-style: normal; font-weight: bold;"><a href="{url}" style="color: #b81b40;">{name length='100'}</a></h3>
+            <p>{description length='300'}</p>
+            <p><a href="{url}" style="color: #b81b40;">Læs mere her</a></p>
+        </td>
+        <td width="5"></td>
+        <td rowspan="2" width="140">
+            <img src="{imageUrl}" alt="" style="padding-right: 9px; padding-top: 9px;" height="auto" width="140"/>
+        </td>
+    </tr>
     </tbody>
 </table>
-
-<!-- End template for article feed -->
